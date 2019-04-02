@@ -17,8 +17,8 @@
 </head>
 
 <body ng-app="" >
-    <div id="topbar-back">
-        <div id="topbar">
+    <div id="topbar-back" >
+        <div id="topbar" class="container col-md-9">
             <ul>
                 <li><a href=""><i class="fab fa-facebook-f"></i></a></i></li>
                 <li><a href=""><i class="fab fa-twitter"></i></a></li>
@@ -37,8 +37,8 @@
             </ul>
         </div>
     </div>
-    <header class="headerside">
-        <div id="header-dicoration">
+    <header class="headerside" class="container">
+        <div id="header-dicoration" >
             <div id="logo">
                 <img src="image/logo.png" alt="" >
                 <h1>Pohat<span style="color:#ff8155">.</span></h1>
@@ -50,8 +50,8 @@
                 </select>
             </div>
             <div id="telephone-number">+90878 87 878 7</div>
-            <div id="header-dicoration-nav">
-                <ul>
+            <div id="header-dicoration-nav" >
+                <ul >
                     <li><a href="#">Home</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Service</a></li>
@@ -75,8 +75,8 @@
         </div>
     </div>
     <div class="wrap">
-        <div class="wrap-first-box">
-            <div id="wrap-first-box-parts">
+        <div class="container wrap-first-box">
+            <div id="wrap-first-box-parts" style="margin-left:10%;">
                 <div><i> <a href=""><img src="image/icon1.png" alt=""></a></i></div>
                 <div>
                     <strong>Free Shipping</strong>
@@ -144,9 +144,9 @@
                                                     <h5 class="card-title" >{{ item.productname }}</h5>
                 
                                                 </div>
-                                                <div class="card-footer">
+                                                <div class="card-footer" style="padding:0;">
                                                     <span class="card-text">{{ item.price }}</span>
-                                                    <div id="stars">
+                                                    <div id="stars" >
                                                         <span ng-repeat=" arr in item.rating " id="stars">
                                                             <ul>
                                                             <a href=""><i class="fas fa-star">{{arr.j}}</i></a>
@@ -187,7 +187,7 @@
                             <h1 style="text-align:left;">Pohat<span style="color:#ff8155">.</span></h1>
                         </div>
                     <div>
-                        <p>
+                        <p style="min-width:100px;">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, amet facere! Explicabo, illo
                             provident voluptates minus possimus facilis autem omnis,
                             sint accusantium fugiat laboriosam odit beatae. Vitae beatae obcaecati, tempora quisquam
@@ -220,7 +220,7 @@
                         <li><a href="">Page Rank Up</a></li>
                         <li><a href="">Contact Us</a></li>
                         <li><a href="">User Panel</a></li>
-                        <li><a href="">Book Appointment</a></li>
+                        <li><a href="" >Book Appointment</a></li>
                     </div>
                 </div>
                 <div>

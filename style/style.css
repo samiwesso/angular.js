@@ -40,21 +40,22 @@ ul, i, strong, span {
 #topbar {
     display: grid;
     grid-template-columns:140px 120px auto 225px ;
-    border: 1px solid black;
-    margin: 0 200px -9px 200px; 
+    /* border: 1px solid black; */
+    /* margin: 0 200px -9px 200px;  */
     text-align: right;
     font-size: 0.7rem;
-    padding-top: 0.4rem;
+    padding-top: 0.5rem;
+    height: 30px;
 }
 .headerside {
     background-color: #ffffff;
+    padding: 0 15% 0 15%;
 }
 #header-dicoration {
     display: grid;
-    grid-template-columns: 195px 50px 150px auto 150px;
+    grid-template-columns: 195px 50px 150px auto 120px;
     padding: 25px 0 30px 0;
-    gap: 5px;
-    margin: 0 200px 0px 200px; 
+    gap: 5px; 
     /* border: 1px solid black; */
     text-align: center;
 }
@@ -95,14 +96,14 @@ ul, i, strong, span {
 #header-dicoration-nav{
     text-align: center;
    margin-top: 15px;
-   margin: auto;
    min-width: 200px;
 }
 #header-dicoration li  {
     display: inline-block;
-    font-size: 13px;
-    margin-right:  22px;
+    font-size: 12px;
     font-weight: 600;
+    padding: 0%;
+    margin-left: 0;
 }
 #header-dicoration a {
     color:black;
@@ -145,24 +146,23 @@ ul, i, strong, span {
 }
 
 .wrap {
-    padding: 90px 300px 0 300px;
+    padding: 90px 18% 0 18%;
     
 }
 .wrap-first-box{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 90px;
+    gap: 20px;
     font-size: 16px;
-    margin: auto;
     border: 1px black solid;
-    padding: 30px 0 22px  45px;
+    padding: 25px 0 20px  45px;
     border-radius: 50px;
     min-width: 700px;
 }
 #wrap-first-box-parts {
     display: grid;
+    max-width: 150px;
     grid-template-columns: 30% 70% ;
-    text-align: left;
 }
 .wrap-first-box strong{
     color: #494949;
@@ -173,7 +173,6 @@ ul, i, strong, span {
 }
 .wrap-first-box i{
     font-size: 25px;
-    margin-right: 10px;
     color: #fda483;
 }
 .wrap-second-box{
@@ -223,6 +222,7 @@ ul, i, strong, span {
                     display: grid;
                     grid-template-columns: auto 100px;
                     gap: auto;
+                    padding:0;
                 }
     #card{
         min-width: 180px;
@@ -245,6 +245,7 @@ ul, i, strong, span {
                 }
     #stars {
                     text-align: right;
+                    position: flex;
                     
                 }
 #wrap-sides-line {
@@ -274,11 +275,11 @@ ul, i, strong, span {
     margin-bottom: 35px;
 }
 #footer {
-    padding: 85px 300px 20px 300px;
     margin-top: 20px; 
     margin-bottom: 10px;
     background-repeat: no-repeat;
     height: auto;
+    padding: 85px 18% 20px 18%;
 }
 #footer-in{
     display: block;
@@ -288,7 +289,7 @@ ul, i, strong, span {
     color: #ffffff;
     gap: 20px;
     display: grid;
-    grid-template-columns: 1fr auto auto;
+    grid-template-columns: 1fr 220px auto;
 }
 #footer-in-logogroup{
     color: #ffffff;
@@ -366,7 +367,7 @@ ul, i, strong, span {
 }
 .scrollTop {
     position: fixed;
-    right: 19.5%;
+    right: 16.5%;
     bottom: 3rem;
    opacity: 0; 
     transition: all .4s ease-in-out 0s;
