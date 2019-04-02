@@ -39,7 +39,7 @@ ul, i, strong, span {
 }
 #topbar {
     display: grid;
-    grid-template-columns:120px 120px auto 225px ;
+    grid-template-columns:135px 120px auto 225px ;
     border: 1px solid black;
     margin: 0 200px -9px 200px; 
     text-align: right;
@@ -306,7 +306,7 @@ ul, i, strong, span {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding-right: 40px;
-    /* border: solid red 1px; */
+    max-width: 300px;
     font-size: 13px;
     margin: 0%;
 }
